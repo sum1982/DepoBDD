@@ -1,5 +1,5 @@
 Feature: HomeDepo Rental Feature
-@TC1
+@TC5
 Scenario Outline: HomeDepo Rental Test Scenario
 
 Given User is already on HomeDepo Page
@@ -16,7 +16,7 @@ Examples:
 	| 60133	|
 
 
-@TC2
+@TC6
 Scenario: HomeDepo Husky Test Scenario
 
 Given user is on ad page
@@ -25,7 +25,7 @@ Then user clicks on tool bags
 Then user sees husky tool bags
 
 
-@TC3
+@TC7
 Scenario Outline: HomeDepo Career Test Scenario
 
 Given user is on HomeDepo site
@@ -40,7 +40,7 @@ Examples:
 	| cashier |
 
 
-@TC4
+@TC8
 Scenario: HomeDepo Blinds Test Scenario
 
 Given user is already on local ad
